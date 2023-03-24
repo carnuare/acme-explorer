@@ -15,6 +15,7 @@ import dataWarehouseRoutes from './api/routes/DataWarehouseRoutes.js'
 import { initializeDataWarehouseJob } from "./api/services/DataWarehouseServiceProvider.js";
 import admin from 'firebase-admin';
 import serviceAccount from './firebase.json' assert { type: "json" }
+import questionRoutes from './api/routes/QuestionRoutes.js'
 
 dotenv.config()
 
@@ -42,6 +43,7 @@ finderRoutes(app)
 configRoutes(app)
 loaderRoutes(app)
 dataWarehouseRoutes(app)
+questionRoutes(app)
 
 swagger(app)
 

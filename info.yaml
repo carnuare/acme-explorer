@@ -1,0 +1,9 @@
+project:
+  name: 'Acme project'
+  owner: 'carnuare'
+  teamId: '123'
+  members:
+    member1:
+      name: 'Governify'
+      surname: 'Auditor' 
+      githubUsername: 'governifyauditor'

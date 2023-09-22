@@ -1,9 +1,14 @@
 project:
   name: 'Acme project'
   owner: 'carnuare'
-  teamId: '123'
+  teamId: '1233'
+  identities:
+    pivotal: 'https://www.pivotaltracker.com/n/projects/2487566'
+    heroku: 'https://goldenflow-showcase-project.herokuapp.com/'
   members:
     member1:
       name: 'Governify'
       surname: 'Auditor' 
       githubUsername: 'governifyauditor'
+      pivotalUsername: 'governifyauditor'
+      herokuEmail: 'governify.auditor@gmail.com'
